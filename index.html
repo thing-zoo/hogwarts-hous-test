@@ -11,10 +11,10 @@
 
     <!-- sns share -->
     <meta property="og:url" content="https://thing-zoo.github.io/HogwartsHouseTest/" />
-    <meta property="og:title" content="HogwartsHouseTest" />
+    <meta property="og:title" content="Hogwarts House Test" />
     <meta property="og:type" content="website" />
     <meta property="og:image" content="image/HogwartsHouse.png" />
-    <meta property="og:description" content="HogwartsHouseTest" />
+    <meta property="og:description" content="호그와트 기숙사 배정 테스트입니다." />
     <!--favicon-->
     <link rel="shortcut icon" href="image/favicon.ico">
     <link rel="apple-touch-icon-precomposed" href="image/favicon.ico" />
@@ -25,9 +25,13 @@
     <link rel="stylesheet" href="./css/qna.css">
     <link rel="stylesheet" href="./css/result.css">
     <link rel="stylesheet" href="./css/animation.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+KR:wght@200;600&display=swap" rel="stylesheet">
+
 </head>
 
 <body>
+    <audio src="./bgm/Prologue.mp3" autoplay loop></audio>
     <div id="main">
         <img src="./image/HarryPotterLogo.png" id="logo"><br>
         <button id="start" type="button" onclick="js:start()">start</button>
@@ -35,24 +39,20 @@
             final
         </p>
     </div>
+
     <div id="qna">
         <img src="./image/SortingHat.png" id="hat"><br>
         <div class="q"></div>
         <div class="a"></div>
     </div>
+
     <div id="result">
         <h1>당신의 결과는?!</h1>
-        <div class="resultName">
-
-        </div>
-        <div id="resultImg">
-
-        </div>
-        <div class="resultDesc">
-
-        </div>
-        <button type="button" class="kakao" onclick="">공유하기</button>
+        <div class="resultName"></div>
+        <div id="resultImg"></div>
+        <div class="resultDesc"></div>
     </div>
+
     <script src="./js/data.js"></script>
     <script src="./js/start.js"></script>
 </body>

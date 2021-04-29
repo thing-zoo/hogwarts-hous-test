@@ -1,7 +1,7 @@
 #main {
     background-image: url("../image/Hogwarts.jpg");
     background-size: cover;
-    color: whitesmoke;
+    color: white;
     padding: 15%;
 }
 
@@ -14,4 +14,12 @@
     width: 20%;
     height: 45px;
     font-size: 20px;
+    border-radius: 25px;
+    color: #041a32;
+    border: 0px;
+}
+
+#start:hover {
+    background-color: #041a32;
+    color: white;
 }

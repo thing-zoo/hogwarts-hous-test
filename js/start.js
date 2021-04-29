@@ -2,7 +2,7 @@ const main = document.querySelector("#main");
 const qna = document.querySelector('#qna');
 const result = document.querySelector('#result');
 
-const endPoint = 12;
+const endPoint = 28;
 const select = [0, 0, 0, 0];
 
 function calResult() {
@@ -14,7 +14,7 @@ function calResult() {
 function setResult() {
     let point = calResult();
     const resultName = document.querySelector('.resultName');
-    resultName.innerHTML = resultList[point].name;
+    resultName.innerHTML = '"'+resultList[point].name+'"';
 
     var resultImg = document.createElement('img');
     const imgDiv = document.querySelector('#resultImg');

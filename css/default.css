@@ -1,5 +1,8 @@
+* {
+    font-family: 'Noto Serif KR', serif;
+}
 body {
-    margin: 0%;
     text-align: center;
-    background-color: slategray;
+    background-color: #041a32;
+    margin: 5%;
 }

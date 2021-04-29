@@ -1,10 +1,7 @@
 #result {
     display: none;
     background-color: whitesmoke;
-    width: 80%;
     text-align: center;
-    border-radius: 20px;
-    margin: 5%;
     padding: 5%;
 }
 
@@ -12,22 +9,12 @@
     width: 30%;
 }
 
-.resultname {
-    font-size: 26px;
+.resultName {
+    font-size: 30px;
+    padding: 10px;
 }
 
 .resultDesc {
     font-size: 20px;
-}
-
-.kakao {
-    color: #3A1D1D;
-    background-color: #F7E600;
-    font-size: 20px;
-    border-radius: 15px;
-}
-
-.kakao:hover,
-.kakao:focus {
-    background-color: whitesmoke;
+    padding: 20px;
 }
