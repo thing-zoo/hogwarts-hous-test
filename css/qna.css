@@ -1,0 +1,40 @@
+#qna {
+    display: none;
+    padding: 8%;
+}
+
+#hat {
+    width: 50%;
+    height: 70%;
+}
+
+.q {
+    font-size: 20px;
+    color: whitesmoke;
+    width: 80%;
+    margin: auto;
+}
+
+.a {
+    padding: 5%;
+    text-align: center;
+    width: 80%;
+    margin: auto;
+}
+
+.aList {
+    background-color: whitesmoke;
+    border-radius: 10px;
+    display: block;
+    width: 100%;
+    height: 50px;
+    border-width: 0px;
+    margin: 10px;
+    font-size: 15px;
+}
+
+.aList:hover,
+.aList:focus {
+    background-color: slategray;
+    color: whitesmoke;
+}

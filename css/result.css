@@ -1,0 +1,33 @@
+#result {
+    display: none;
+    background-color: whitesmoke;
+    width: 80%;
+    text-align: center;
+    border-radius: 20px;
+    margin: 5%;
+    padding: 5%;
+}
+
+.house {
+    width: 30%;
+}
+
+.resultname {
+    font-size: 26px;
+}
+
+.resultDesc {
+    font-size: 20px;
+}
+
+.kakao {
+    color: #3A1D1D;
+    background-color: #F7E600;
+    font-size: 20px;
+    border-radius: 15px;
+}
+
+.kakao:hover,
+.kakao:focus {
+    background-color: whitesmoke;
+}

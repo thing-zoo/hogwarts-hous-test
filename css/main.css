@@ -1,0 +1,17 @@
+#main {
+    background-image: url("../image/Hogwarts.jpg");
+    background-size: cover;
+    color: whitesmoke;
+    padding: 15%;
+}
+
+#logo {
+    width: 70%;
+    height: 15%;
+}
+
+#start {
+    width: 20%;
+    height: 45px;
+    font-size: 20px;
+}
