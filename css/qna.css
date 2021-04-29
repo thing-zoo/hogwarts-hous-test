@@ -35,8 +35,10 @@
     font-size: 15px;
 }
 
-.aList:hover,
-.aList:focus {
-    background-color: #041a32;
-    color: white;
+@media (hover: hover) {
+    .aList:hover,
+    .aList:focus {
+        background-color: #041a32;
+        color: white;
+    }
 }
