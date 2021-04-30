@@ -5,7 +5,7 @@
 // 슬리데린 : 3
 
 // 질문 개수 : 28
-const qnaList = [{
+const testList = [{
         q: '1. 새벽 또는 황혼?',
         a: [
             { answer: '새벽', type: [0, 1] },
